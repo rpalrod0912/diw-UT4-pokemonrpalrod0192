@@ -112,6 +112,30 @@
     }
 }
 
+@media (max-width:710px){
+    .op2{
+
+            img {
+                width: 30rem;
+                max-width: 40%;
+                position: absolute;
+                top: 190%;
+                left: 30%;
+            
+        }
+        p{
+            top: auto;
+            left: auto;
+            text-align: center;
+        }
+        h1{
+            font-size: 3vw;
+            width: 20%;
+            top: auto;
+            text-align: center;
+        }
+    }
+}
 .op3{
     background-color: #8aaae5;
     width: 100%;
@@ -152,5 +176,15 @@
             font-size: 1vw;
         }
         
+    }
+}
+
+@media (max-width:720px){
+    .op3{
+        .card{
+            button{
+                font-size: 5vw;
+            }
+        }
     }
 }

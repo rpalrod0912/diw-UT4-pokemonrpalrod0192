@@ -85,3 +85,25 @@
         }
     }
 }
+
+@media (max-width:730px){
+    .pkDex{
+        h1{
+            padding-top: 2rem;
+            font-size: 5.9vw;
+        }
+        .resultados{
+            .filtro{
+                p{
+                    padding-top: 1rem;
+                    font-size:6vw;
+                }
+                img{
+                    width: 5.5vw;
+                    padding-bottom: 8px;
+                }
+            }
+        }
+    }
+
+}

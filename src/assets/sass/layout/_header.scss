@@ -117,3 +117,15 @@ header{
         width: 30px;
     }
 }
+
+@media (max-width:620px){
+    header{
+      .logo{
+        width: 120px;
+      }
+      .search{
+        visibility: hidden;
+      }
+    }
+
+}

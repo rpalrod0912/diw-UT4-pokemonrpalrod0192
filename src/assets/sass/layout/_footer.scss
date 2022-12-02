@@ -17,3 +17,10 @@ footer{
     }
     
 }
+@media (max-width:600px){
+    footer{
+        img{
+            height: 50px;
+    } 
+    }
+}
