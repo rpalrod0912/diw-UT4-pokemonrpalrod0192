@@ -96,23 +96,11 @@
             border-radius: 30px;
             text-align: center;
             font-family: blogger_sansbold;
-            font-size: 2vw;
         }
         
     }
     @media (max-width:700px){
-        .bdy{
-            .dexBdy {
-
-            
-            .pkmDex {
-                justify-content: space-evenly;
-                margin-top: 4rem;
-                display: flex;
-            }
-        }
         
-    }
 }
     
     
@@ -258,11 +246,44 @@
 }
 @media (max-width:700px){
     .dexBdy{
+        .nav {
+            p{
+                font-size: 6vw;
+            }
+            .izq,.der{
+                width: 6vw;
+            }
+        }
+            p,h1{
+                font-size: 4vw;
+            }
+            .info{
+                h1{
+                    padding-top: 20px;
+                }
+                p{
+                   width:180%; 
+                }
+            }
+            .pkmPreset{
+                flex-direction: column;
+            }
+            
+            .pkmDex {
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 4rem;
+                align-items: center;
+                flex-direction: column
+        }
         
+        .evoTitle{
+            font-size: 1.8rem;
+        }
         .evo{
             width: 60%;
             p{
-                font-size: 3vw;
+                font-size: 5vw;
             }
             justify-content: center;
             flex-direction: column;
