@@ -1,3 +1,17 @@
+.typeElectric{
+            
+    color: black;
+    /* width: 50%; */
+    /* max-width: 60%; */
+    /* height: 10vw; */
+    /* max-height: 10vw; */
+    background-color: yellow;
+    border: 3px solid yellow;
+    border-radius: 30px;
+    text-align: center;
+    font-family: blogger_sansbold;
+    font-size: 2vw;
+            }
 .bdy{
     padding-top: 5%;
     background-color: #8aaae5;
@@ -84,20 +98,7 @@
             font-family: blogger_sansbold;
             font-size: 2vw;
         }
-        .typeElectric{
-            
-            color: black;
-            /* width: 50%; */
-            /* max-width: 60%; */
-            /* height: 10vw; */
-            /* max-height: 10vw; */
-            background-color: yellow;
-            border: 3px solid yellow;
-            border-radius: 30px;
-            text-align: center;
-            font-family: blogger_sansbold;
-            font-size: 2vw;
-                    }
+        
     }
     
     
@@ -166,6 +167,15 @@
             }
         }
     }
+    .evoTitle{
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-size: 3vw;
+        font-weight: bold;
+        color: black;
+        font-family: 'blogger_sansbold';
+    }
     .evo{
         display: flex;
         background-color:#4E4E4E ;
@@ -178,9 +188,11 @@
         border: 20px solid #4E4E4E;
         border-radius: 20px;
         justify-content: center;
+        align-items: center;
+        justify-content: space-around;
         .flecha{
-            width: 1vw;
-            transform: rotate(89deg)
+            width: 2vw;
+            transform: rotate(180deg);
         }
         .filaEvo{
             display: flex;
@@ -191,7 +203,8 @@
                 width: auto;
                 width: 10rem;
                 height: 9rem;
-                background-color: #4e4e4e;
+                background-color: #424040;
+                border: 9px solid white;
                 border-radius: 50%;
                 justify-content: center;
                 padding: 20px;
