@@ -1,0 +1,87 @@
+.pkDex{
+    background-color: #8aaae5;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    h1{
+        font-family: 'pokemon_solidnormal';
+        font-weight: normal;
+        letter-spacing: 0.18em;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 3%;
+        font-size: 2.5vw;
+    }
+    .resultados{
+        border-radius: 25px 25px 0px 0px;
+        height: auto;
+        width: 80%;
+        background-color: #fff;
+    
+        //Div slider filtro
+        .filtro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 25px 25px 0px 0px;
+            p{
+                padding-top: 2rem;
+                font-size: 2vw;
+                color: white;
+                font-family: 'blogger_sansbold';
+            }
+            img{
+                width: 2vw;   
+                transform: rotate(-90deg);
+            }
+            background-color:  #4E4E4E;
+        }   
+        //Resto del contenedor resultados
+        .cardsDex{
+            justify-content: center;
+            display:flex;
+            justify-content: space-around;
+            //Si el elemtno no cabe en la pantalla se coloca abajo
+            flex-wrap: wrap;
+            //gap:1rem;
+
+        }
+        .cardPkm{
+            padding-top: 3vh;
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            font-family: 'blogger_sansbold';
+            font-size:1.3rem;
+            margin: 3%;
+            //Para ver lo que ocupa el elemto card
+            //background-color: tomato;
+        
+            //flex:1 0 30%;
+            .circle{
+                display: flex;
+                width: 10rem;
+                background-color: #4E4E4E;
+                border-radius: 50%;
+                padding: 20px;
+                justify-content: center
+            }
+            .dex1{
+                max-width: 100%;
+                width: auto;
+                height: 9rem;
+                //Delimitamos que solo se muestren 3 elementos
+                
+            }
+            padding-bottom: 4%;
+            button{
+                font-size: 1vw;
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,93 @@
+//WebKit obtenida en pagina https://www.fontsquirrel.com/tools/webfont-generator para generar fuente de Pokemon
+
+
+
+.secInicio{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        .imInicio{
+            //Especificar Resolución Monitor?
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        h1{
+            position: absolute;
+            width: 40%;
+            height: 90px;
+            left: 79px;
+            top: 50%;
+            font-family: 'pokemon_solidnormal';
+            font-size: 2.5vw;
+            letter-spacing: 0.18em;
+        }
+    }
+    
+.secMed{
+    display: flex;
+    background-color: #8AAAE5;   
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    .titulo-secF{
+        //white-space: pre;
+            margin: auto;
+            width: 80%;
+            font-family: 'pokemon_solidnormal';
+            letter-spacing: 0.18em;
+            font-size:35px;
+            padding-top: 2%;
+            padding-bottom: 3%;
+        }
+}
+.secFinal{
+    display: flex;
+    flex-flow: row wrap;   
+    align-items: space-around;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    
+    h1{
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 15%;
+    }
+    .div{
+        width: 15%;
+    }
+    img{
+        max-width: 300px;
+    }
+   
+}
+/*footer{
+        top:250%;
+        left: 0%;
+        right: 0%;
+        background: #111;
+        height: 10%;
+        width: 100%;
+        color: #fff;
+        
+        img{
+            height: 80px;
+            width: auto;
+            padding: 5px;
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+    }*/
+    
+
+
+
+
+

@@ -1,0 +1,119 @@
+header{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-height: 40vh;
+    height: 100px;
+    a{
+        width: 20%;
+    }
+    .respmenu a {
+        color: inherit;
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+        border-bottom: 2px solid #456789;
+        max-width: 200px;
+        background: #234567;
+        font-variant: small-caps;
+        text-shadow: 1px 1px black;
+      }
+      .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+        position: absolute;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        top: 0;
+        width: 48px;
+        height: 48px;
+      }
+      
+      .respmenu .fa-bars, .respmenu .fa-times {
+        font-size: 48px;
+        pointer-events: none;
+      }
+      
+      .respmenu input[type="checkbox"] {
+        opacity: 0;
+      }
+      
+      .respmenu {
+        color: white;
+        position: relative;
+        background: #123456;
+        min-height: 48px;
+      }
+      
+      .respmenu nav {
+        display: none;
+      }
+      
+      .respmenu input:checked ~ nav {
+        display: block;
+      }
+      
+      .respmenu input:checked ~ .fa-bars {
+        display: none;
+      }
+      
+      .respmenu input:not(:checked) ~ .fa-times {
+        display: none;
+      }
+    .logo{
+        width: 40%;
+        padding: 10px;
+        padding-left: 30px;
+    }
+    .search{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .searchBar{
+        color: white;
+        width: 200px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: black;
+    }
+    .logo-busq{
+        width: 40px;
+        height: 45px;
+        padding: 10px;
+    }
+    nav{
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        padding: 10px;
+        width: 45%;
+        align-items: flex-end;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        /* Clase transiciones CSS
+        .logina{
+            border-radius: 20px black;   
+            transition: background 0.4s linear;
+        }
+        .logina:hover{
+            padding-left: 8%;
+            background-color: black;
+            border-radius: 20px black;   
+            transition: background 2s linear;
+        }*/
+    }
+    .hamburguesa{
+        width: 30px;
+    }
+}
