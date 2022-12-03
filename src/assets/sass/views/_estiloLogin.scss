@@ -93,3 +93,45 @@
      }
 }
 
+@media (max-width:600px){
+    .login{
+    h1{
+        font-size: 1.7rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        min-height: auto;
+
+        label{
+            font-size: 1.6rem;
+            font-family: 'blogger_sansbold';
+        }
+        input{
+            height: 2rem;
+            font-size: 1.4rem;
+        }
+        .check input{
+            height: 1.5rem;
+        }
+        .check{
+            font-size: 1.2rem;
+        }
+        button{
+            margin:auto auto;
+        }
+        .logbtn{
+            font-size:1rem;
+        }
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    button{
+        font-size: 1rem;
+    }
+    .pikachuLogin{
+        width: 10rem;
+    }
+  }
+}
