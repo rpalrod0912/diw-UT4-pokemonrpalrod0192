@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/sass/main.scss">
+    <title>Mi Perfil</title>
+</head>
+<body>
+
+   <header>
+    <a href="index.html"><img src="assets/images/pokemonRecortado.png" class="logo"></a>
+    <div class="search">
+        <input type="input" class="searchBar" maxlength="40">
+        <img class="logo-busq" src="assets/images/Logo Busqueda.png">
+    </div>
+    <nav class="menuHTML">  
+        <label for="menu-toggle">
+           <div class="botonMenu">
+                <img class="imgMenu"src="assets/images/menuIcon.png">
+           </div>
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+        <ul id="trickMenu">
+           <li><a href="login.html"> Login </a></li>
+           <li><a href="pokedex.html"> Dex </a></li>
+           <li><a href="#"> Mi perfil </a></li>
+        </ul>
+     </nav>
+   </header>
+    <main class="bdy">
+        <section class="prfBody">
+            <div class="nav">
+                <h1>Mi Perfil</h1>
+            </div>
+        
+        <article class="userPrf">
+            <div class="userPreset">
+                <div class="circleUser">
+                    <img src="assets/images/profileUser.png">
+                </div>
+                <div class="etiquetas">
+                    <p>Experiencia:</p>
+                    <p class="exp">PRO</p>
+                </div>
+            </div>
+            <div class="info">
+                <h1>Rafael0001</h1>
+                <p>Tu Descripción:</p>
+                <p>Soy jugador de Pokémon desde los 7 años y tengo mucha experiencia en juegos de la marca....</p>
+            </div>
+        </article>
+        <article class="userData">
+            <form class="userForm">
+                <p>TUS DATOS</p>
+                    <div>
+                        <label>Nombre De usuario:</label>
+                        <input type="text" maxlength="50" placeholder="Rafa001">
+                        <label>Nombre:</label>
+                        <input type="text" maxlength="30" placeholder="Rafael">  
+                        <label>Apellidos:</label>
+                        <input type="text" maxlength="30" placeholder="Palomino Rodríguez">  
+                        <label>Correo Electrónico:</label>
+                        <input type="text" maxlength="30" placeholder="rpalrod0912@g.educaand.es"> 
+                        <label>Imagen:</label>
+                        <input type="file" value="Seleccion tu imagen">   
+                    </div>
+                <button>GUARDAR CAMBIOS</button>
+            </form>
+        </article>
+</main>
+   <footer>
+    <img src="assets/images/iconoPokeball.jpg">
+    <div class="social">
+        <img src="assets/images/ig.png">
+        <img src="assets/images/tw.png">
+        <img src="assets/images/ytpr.png">
+    </div>
+</footer>
+</body>
+</html>
