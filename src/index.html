@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/sass/main.scss">
     <script src="https://kit.fontawesome.com/5c86a8d37e.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="theme">
    <header>
     <a href="index.html"><img src="assets/images/pokemonRecortado.png" class="logo"></a>
     <div class="search">
@@ -16,9 +16,9 @@
         <img class="logo-busq" src="assets/images/Logo Busqueda.png">
     </div>
     <nav class="menuHTML">
-        
+        <button id="modoLuz">Modo Noche</button>
         <label for="menu-toggle">
-     
+            
            <div class="botonMenu">
                 <img class="imgMenu"src="assets/images/menuIcon.png">
            </div>
@@ -35,6 +35,7 @@
      
            <li><a href="perfil.html"> Mi perfil </a></li>
      
+            <li><a href="404.html">Error</a></li>
         </ul>
      
      </nav>
@@ -54,11 +55,11 @@
                 </div>
                 <div class="opcion2">
                     <h1>Regiones</h1>
-                    <img class="im2" src="assets/images/Inicio2.png">
+                    <a href="region.html"><img class="im2" src="assets/images/Inicio2.png"></a>
                 </div>
                 <div class="opcion3">
                     <h1>Contacto</h1>
-                    <a href="contacto.html"><img class="im3" src="assets/images/Inicio3.jpg"></a>
+                    <a href="contacto.html"><img class="im3" src="assets/images/Inicio3_preview_rev_1.png"></a>
                 </div>
         </section>
    </main>
@@ -71,4 +72,6 @@
         </div>
     </footer>
 </body>
+<script src="modoNoche.js"></script>
+
 </html>
