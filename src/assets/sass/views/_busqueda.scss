@@ -1,3 +1,6 @@
+//Modifica pokedex.html
+//Estilo principal de la pagina de resultados de busqueda
+//cLASE PKdEX es clase padre donde se encuentra la clase hija resultados y filtros
 .pkDex {
   background-color: var(--color__backgroundLogin);
   flex-direction: column;
@@ -38,6 +41,7 @@
       }
       background-color: var(--color__filtrosDex);
     }
+    //Estilos de cada card, pues la vista de los pokemon se ven como una card individual que se ajustaran a la pantalla con el wrap
     //Resto del contenedor resultados
     .cardsDex {
       justify-content: center;

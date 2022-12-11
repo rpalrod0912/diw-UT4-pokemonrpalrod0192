@@ -1,3 +1,5 @@
+//Modifica a vistaPkm.html
+
 .typeElectric {
   color: black;
   /* width: 50%; */
@@ -11,6 +13,7 @@
   font-family: blogger_sansbold;
   font-size: 2vw;
 }
+//Estilos del body
 .bdy {
   padding-top: 5%;
   background-color: var(--color__backgroundLogin);
@@ -19,7 +22,7 @@
   display: flex;
   align-items: center;
 }
-
+//Estilos de la seccion
 .dexBdy {
   .p1 {
     color: var(--color__secundario);
@@ -48,6 +51,7 @@
     //Space Evenly da espacios entre elementos
     justify-content: space-evenly;
   }
+  //Estilos de los primeros datos que se ven en la parte superior del pokemon
   .pkmPreset {
     text-align: center;
     display: flex;
@@ -70,7 +74,7 @@
         object-fit: contain;
       }
     }
-
+    //Estilos de las etiquetas del tipo de pokemon
     .types {
       width: 100%;
       display: flex;
@@ -136,7 +140,7 @@
       width: 2vw;
     }
   }
-
+  //EStilosdel segundo contenedor que contiene las caracteristicas del pokemon
   .stats {
     display: flex;
     background-color: var(--color__pkmStats);
@@ -188,6 +192,7 @@
       }
     }
   }
+  //Estilos del div que contiene las evolucines
   .evo {
     display: flex;
     background-color: #4e4e4e;

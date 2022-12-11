@@ -1,3 +1,6 @@
+//MOdifica a 404.html
+
+//Estilos de la página de error
 .bodyError {
   background: #ecf0f1;
   display: flex;
@@ -71,6 +74,7 @@
   animation: blink 0.5s alternate 7;
 }
 /* Animation */
+//Indicamos que parpadee el boton de la pokeball desde color blanco hasta rojo
 @keyframes blink {
   from {
     background: #eee;
@@ -79,6 +83,8 @@
     background: #e74c3c;
   }
 }
+//Los porcentajes en los keyframes indican que tiene que hacer la animacion segun como esta este de avanzada,
+//en este caso la movemos de posicion y la rotamos en su eje
 @keyframes shake {
   0% {
     transform: translate(0, 0) rotate(0);

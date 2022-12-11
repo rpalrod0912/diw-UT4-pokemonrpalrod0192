@@ -1,3 +1,6 @@
+//Modifica a registro.html
+//Estilos de un section que contiene formulario e inputs
+
 .register {
   width: 100%;
   min-height: 78vh;
@@ -22,7 +25,7 @@
     display: flex;
     margin-top: 3rem;
   }
-
+  //Declaramos estilos formularios y de sus inputs de text y de checkbox
   form {
     //Para cambiar el color del input clase checkbox
     input[type="checkbox"] {
@@ -57,6 +60,7 @@
       border: 1px solid var(--color__secundario);
     }
   }
+  //Input checkbox
   .correo {
     margin: auto;
     margin-bottom: 10px;
@@ -71,7 +75,7 @@
       /* max-height: 2vw;*/
     }
   }
-
+  //Input condiciones
   .condiciones {
     margin: auto;
     margin-bottom: 4vw;
@@ -100,6 +104,7 @@
     height: 80%;
     width: 100%;
   }
+  //Estilos al boton de registro
   .signUp {
     margin: auto auto 80px;
     /* padding-left: 1rem; */

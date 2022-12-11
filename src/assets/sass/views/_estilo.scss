@@ -1,5 +1,7 @@
 //WebKit obtenida en pagina https://www.fontsquirrel.com/tools/webfont-generator para generar fuente de Pokemon
 
+//Modifica a Index.html
+//Estilos del Index, se dividen en tres Secciones, cada una con su estilo individual
 .secInicio {
   display: flex;
   justify-content: center;
@@ -35,7 +37,7 @@
     }
   }
 }
-
+//EStilo secccion media
 .secMed {
   display: flex;
   background-color: var(--color__secIndex);
@@ -62,6 +64,8 @@
     }
   }
 }
+
+//Estilo sección final
 .secFinal {
   background-color: var(--color__backIndex);
   display: flex;
@@ -99,20 +103,3 @@
     }
   }
 }
-/*footer{
-        top:250%;
-        left: 0%;
-        right: 0%;
-        background: #111;
-        height: 10%;
-        width: 100%;
-        color: #fff;
-        
-        img{
-            height: 80px;
-            width: auto;
-            padding: 5px;
-            padding-top: 20px;
-            padding-left: 20px;
-        }
-    }*/

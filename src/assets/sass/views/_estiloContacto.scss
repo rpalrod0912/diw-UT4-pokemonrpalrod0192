@@ -1,8 +1,11 @@
+//Modifica a contacto.html
+
+//Estilo aplicado a toda la seccion del main, despues del body
 main {
   width: 100%;
   min-height: 80vh;
 }
-
+//Estilo sección contacto
 .contact {
   width: 100%;
   min-height: 78vh;
@@ -27,7 +30,7 @@ main {
     display: flex;
     margin-top: 3rem;
   }
-
+  //EStilos del formulario interno, usando grid
   form {
     img {
       width: 20%;
@@ -90,7 +93,7 @@ main {
     border-radius: 20px;
     margin-bottom: 1%;
   }
-
+  //Margenes al boton de registro
   .signUp {
     margin: auto auto 80px;
     /* padding-left: 1rem; */

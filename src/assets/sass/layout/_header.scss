@@ -1,3 +1,4 @@
+//Header que se utilizará ent doa la página, es un display flex con direccion en filas compuesto por un logo una barra de busqueda y un menu hamburguesa
 header {
   background-color: white;
   width: 100%;
@@ -10,12 +11,14 @@ header {
   a {
     width: 20%;
   }
-
+  //Estilos del logo
   .logo {
     width: 40%;
     padding: 10px;
     padding-left: 30px;
   }
+  //Estilos de barra de busqueda
+
   .search {
     width: 40%;
     display: flex;

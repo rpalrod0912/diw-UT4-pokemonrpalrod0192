@@ -1,17 +1,15 @@
+//Modifica a region.html
+
 * {
   margin: 0;
   padding: 0;
 }
-/*
-.wrapper{
-    max-width: 1250px;
-    margin-left: auto;
-    margin-right: auto;
-}*/
 
+//Basamos los estilos en 3 secciones principales, op1, op2 y op3
 .Dex {
   background-color: var(--color__primario);
 }
+//op1 contiene estilos imagen, de letra y de boton
 .op1 {
   color: white;
   width: 100%;
@@ -62,7 +60,7 @@
     width: 70%;
   }
 }
-
+//Estilos segunda seccion, con una imagen disinta y estilos de boton distintos a op1
 .op2 {
   background-color: var(--color__primario);
   width: 100%;
@@ -109,7 +107,7 @@
     width: 30%;
   }
 }
-
+//Estilos tercera seccion, vista de Pokedex utilizando los estilos de cards con flex ya usados en los estilos de busqueda
 .op3 {
   background-color: var(--color__backgroundLogin);
   width: 100%;
